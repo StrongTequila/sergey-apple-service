@@ -222,10 +222,198 @@ main{padding:12px 0 78px}section{margin-top:22px}.card{background:rgba(255,255,2
   }
 }
 
+
+/* Force clean mobile layout for iPhone / touch browsers */
+@media(max-width:900px), (hover:none) and (pointer:coarse){
+  html,body{
+    width:100%!important;
+    max-width:100%!important;
+    overflow-x:hidden!important;
+    background:#f7f7f8!important;
+  }
+
+  .wrap{
+    width:min(100% - 28px, 1500px)!important;
+    max-width:100%!important;
+  }
+
+  .topbar{
+    position:relative!important;
+    overflow:hidden!important;
+    background:rgba(247,247,248,.96)!important;
+    border-bottom:1px solid var(--line)!important;
+  }
+
+  .nav{
+    height:auto!important;
+    min-height:92px!important;
+    padding:18px 0 16px!important;
+    display:flex!important;
+    flex-direction:column!important;
+    align-items:center!important;
+    justify-content:center!important;
+    gap:0!important;
+    overflow:hidden!important;
+  }
+
+  .wordmark{
+    width:100%!important;
+    display:flex!important;
+    justify-content:center!important;
+    align-items:center!important;
+    text-align:center!important;
+    overflow:visible!important;
+  }
+
+  .wordmark img{
+    width:min(230px,72vw)!important;
+    max-width:72vw!important;
+    height:auto!important;
+    transform:none!important;
+    margin:0 auto!important;
+    display:block!important;
+  }
+
+  .wordmark small,
+  .navlinks{
+    display:none!important;
+  }
+
+  .hero{
+    padding:34px 0 24px!important;
+  }
+
+  .hero-grid{
+    display:block!important;
+    grid-template-columns:none!important;
+    gap:0!important;
+  }
+
+  .hero-grid > div:first-child{
+    text-align:center!important;
+  }
+
+  .hero-grid > .visual,
+  .visual{
+    display:none!important;
+  }
+
+  .badge{
+    transform:none!important;
+    margin:0 auto 18px!important;
+    max-width:100%!important;
+    justify-content:center!important;
+    white-space:normal!important;
+    line-height:1.45!important;
+    padding:9px 14px!important;
+    font-size:14px!important;
+  }
+
+  h1{
+    max-width:100%!important;
+    margin:0 auto!important;
+    font-size:clamp(40px, 13vw, 58px)!important;
+    line-height:1.08!important;
+    letter-spacing:.01em!important;
+    text-align:center!important;
+  }
+
+  .hero-lead{
+    margin:22px auto 0!important;
+    max-width:94%!important;
+    font-size:20px!important;
+    line-height:1.75!important;
+    text-align:center!important;
+  }
+
+  .actions{
+    margin-top:30px!important;
+    display:grid!important;
+    grid-template-columns:1fr!important;
+    gap:14px!important;
+    width:100%!important;
+  }
+
+  .actions .btn{
+    width:100%!important;
+    min-height:58px!important;
+    font-size:18px!important;
+    border-radius:999px!important;
+  }
+
+  .trust{
+    grid-template-columns:1fr 1fr!important;
+    gap:12px!important;
+    margin-top:28px!important;
+  }
+
+  .trust-card{
+    padding:16px!important;
+    border-radius:20px!important;
+    text-align:center!important;
+  }
+
+  .trust-card strong{
+    font-size:16px!important;
+  }
+
+  .trust-card span{
+    font-size:13px!important;
+  }
+
+  main{
+    padding-top:6px!important;
+  }
+
+  .card,.dark,.list,.contact{
+    border-radius:24px!important;
+    padding:24px 20px!important;
+  }
+
+  .grid,.split,.contact{
+    grid-template-columns:1fr!important;
+  }
+
+  .service{
+    min-height:auto!important;
+    border-radius:22px!important;
+    padding:22px!important;
+  }
+
+  h2{
+    font-size:32px!important;
+    text-align:center!important;
+  }
+
+  .lead{
+    font-size:17px!important;
+    text-align:center!important;
+  }
+
+  .contact-panel{
+    border-radius:22px!important;
+  }
+}
+
+@media(max-width:390px){
+  .wrap{
+    width:min(100% - 22px,1500px)!important;
+  }
+  h1{
+    font-size:40px!important;
+  }
+  .hero-lead{
+    font-size:18px!important;
+  }
+  .trust{
+    grid-template-columns:1fr!important;
+  }
+}
+
 </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"סרגיי תמיכה ושירות למחשבי אפל","description":"יעוץ, שירות ותמיכה למחשבי Apple. תחזוקה, התקנה, תיקון, הצלה ותמיכה מרחוק במרכז ישראל.","address":{"@type":"PostalAddress","addressLocality":"פתח תקווה","addressCountry":"IL"},"areaServed":["פתח תקווה","מרכז ישראל","Israel"],"telephone":"+972526357441","url":"https://strongtequila.github.io/sergey-apple-service/"}</script>
 </head>
-<body>
+<body data-version="force-mobile-layout">
   <div class="topbar"><nav class="wrap nav" aria-label="ניווט ראשי"><a class="wordmark" href="#top" aria-label="סרגיי"><img src="assets/sergey-logo.svg" alt="סרגיי"><small>תמיכה ושירות למחשבי Apple</small></a><div class="navlinks"><a href="#services">שירותים</a><a href="#models">דגמים</a><a href="#remote">תמיכה מרחוק</a><a class="cta" href="#contact">יצירת קשר</a></div></nav></div>
   <header id="top" class="hero"><div class="wrap"><div class="hero-grid"><div><div class="badge"><span class="dot"></span> טכנאי שירות · 30 שנות ניסיון · מרכז ישראל</div><h1>יעוץ, שירות ותמיכה למחשבי Apple</h1><p class="hero-lead">הכל מסביב למחשבי Apple: תחזוקה, התקנה, תיקון והצלה. שירות למחשבי Mac ותיקים מאוד ועד הדגמים החדשים ביותר, כולל תמיכה מרחוק בשליטה מאובטחת לפי הצורך.</p><div class="actions"><a class="btn primary" href="tel:+972526357441">התקשרו עכשיו: 052-635-7441</a><a class="btn secondary" href="https://wa.me/972526357441">שלחו WhatsApp</a></div></div><div class="visual" aria-label="סרגיי"><div class="visual-inner"><img class="big-logo" src="assets/sergey-logo.svg" alt="סרגיי"><p>שירות מדויק, שקט ומקצועי למחשבי Apple.</p></div><div class="mini-list"><div class="mini"><strong>תחזוקה · התקנה · תיקון · הצלה</strong><span>Mac</span></div><div class="mini"><strong>תמיכה מרחוק ובבית הלקוח</strong><span>לפי הצורך</span></div><div class="mini"><strong>עברית ורוסית</strong><span>הסבר ברור</span></div></div></div></div><div class="trust"><div class="trust-card"><strong>30 שנות ניסיון</strong><span>ידע מעשי עם דורות רבים של מחשבי Apple</span></div><div class="trust-card"><strong>מרכז ישראל</strong><span>שירות באזור המרכז</span></div><div class="trust-card"><strong>תמיכה מרחוק</strong><span>פתרון בעיות בשליטה מרחוק</span></div><div class="trust-card"><strong>צפון ודרום</strong><span>אפשרי בתיאום נפרד</span></div></div></div></header>
   <main class="wrap">

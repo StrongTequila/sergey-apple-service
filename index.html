@@ -36,6 +36,66 @@ main{padding:12px 0 78px}section{margin-top:22px}.card{background:rgba(255,255,2
 .list{background:#fff;border:1px solid var(--line);border-radius:var(--radius);padding:clamp(24px,4vw,38px);box-shadow:var(--soft)}.check{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:14px}.check li{display:flex;gap:12px;color:var(--muted);align-items:flex-start}.check li:before{content:"✓";flex:0 0 26px;height:26px;border-radius:50%;display:grid;place-items:center;background:rgba(193,18,31,.09);color:var(--red);font-weight:950;margin-top:2px}
 .contact{display:grid;grid-template-columns:1.15fr .85fr;gap:22px;align-items:center;background:#fff;border:1px solid var(--line);border-radius:34px;padding:clamp(28px,5vw,54px);box-shadow:var(--shadow)}.contact-panel{background:#f4f4f6;border:1px solid var(--line);border-radius:24px;padding:22px}.contact-row{display:block;padding:13px 0;border-bottom:1px solid var(--line);color:var(--text);text-decoration:none;font-weight:900}.contact-row:last-child{border-bottom:0}.note{margin-top:18px;color:var(--muted);font-size:14px}footer{padding:34px 16px 54px;text-align:center;color:var(--muted);font-size:14px}
 @media(max-width:920px){.hero-grid,.trust,.grid,.split,.contact{grid-template-columns:1fr}.visual{min-height:520px}.navlinks a:not(.cta){display:none}}.visual{background:linear-gradient(150deg,#fff,#f4f4f6);border:1px solid var(--line);border-radius:42px;box-shadow:var(--shadow);padding:58px 62px;min-height:640px;display:flex;flex-direction:column;justify-content:space-between;overflow:hidden;position:relative}.navlinks a:not(.cta){display:none}}@media(max-width:560px){.badge{transform:none}.wrap{width:min(100% - 22px,1500px)}.nav{height:86px}.wordmark img{width:118px;transform:translateY(10px)}.wordmark small{display:none}.hero{padding-top:44px}h1{font-size:42px}.actions .btn{width:100%}.visual{min-height:420px;padding:32px 24px}.big-logo{width:min(520px,100%)}.visual,.card,.dark,.list,.contact{border-radius:22px}}.wrap{width:min(100% - 22px,1120px)}.nav{height:112px;display:flex;align-items:center;justify-content:space-between;gap:18px;overflow:visible}.wordmark img{width:190px;height:auto;display:block;transform:translateY(22px);overflow:visible}.wordmark small{font-size:13px;color:var(--muted);font-weight:750;letter-spacing:0;transform:translateY(18px);white-space:nowrap}.hero{padding-top:42px}h1{margin:24px 0 0;max-width:900px;font-size:clamp(48px,6.2vw,88px);line-height:1.08;letter-spacing:.026em;font-weight:950}.actions .btn{width:100%}.visual,.card,.dark,.list,.contact{border-radius:22px}}
+
+@media(max-width:700px){
+  body{overflow-x:hidden}
+  .topbar{position:relative;overflow:hidden}
+  .nav{
+    height:auto;
+    min-height:96px;
+    padding:12px 0 14px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    overflow:hidden;
+  }
+  .wordmark{
+    width:100%;
+    justify-content:center;
+    gap:0;
+  }
+  .wordmark img{
+    width:min(210px,72vw);
+    transform:none;
+    margin:0 auto;
+  }
+  .wordmark small{display:none}
+  .navlinks{
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:0;
+  }
+  .navlinks a:not(.cta){display:none!important}
+  .navlinks .cta{
+    display:inline-flex;
+    justify-content:center;
+    align-items:center;
+    min-width:190px;
+    max-width:calc(100vw - 48px);
+    padding:10px 18px;
+    margin:0 auto;
+    transform:none;
+  }
+  .hero{padding-top:34px}
+}
+
+
+@media(max-width:700px){
+  .hero-grid{gap:24px}
+  .visual{
+    min-height:420px;
+    padding:34px 24px;
+  }
+  .big-logo{
+    width:min(500px,100%);
+    max-width:100%;
+  }
+}
+
 </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"סרגיי תמיכה ושירות למחשבי אפל","description":"יעוץ, שירות ותמיכה למחשבי Apple. תחזוקה, התקנה, תיקון, הצלה ותמיכה מרחוק במרכז ישראל.","address":{"@type":"PostalAddress","addressLocality":"פתח תקווה","addressCountry":"IL"},"areaServed":["פתח תקווה","מרכז ישראל","Israel"],"telephone":"+972526357441","url":"https://strongtequila.github.io/sergey-apple-service/"}</script>
 </head>

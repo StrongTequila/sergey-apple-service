@@ -96,6 +96,99 @@ main{padding:12px 0 78px}section{margin-top:22px}.card{background:rgba(255,255,2
   }
 }
 
+
+@media(max-width:700px){
+  html,body{max-width:100%;overflow-x:hidden}
+  .topbar{
+    position:relative;
+    overflow:hidden;
+    padding:6px 0 10px;
+  }
+  .nav{
+    width:100%;
+    height:auto!important;
+    min-height:112px;
+    padding:8px 0 12px;
+    display:flex!important;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:12px;
+    overflow:hidden;
+  }
+  .wordmark{
+    width:100%;
+    display:flex!important;
+    justify-content:center;
+    align-items:center;
+    overflow:visible;
+  }
+  .wordmark img{
+    width:min(230px,76vw)!important;
+    max-width:76vw;
+    height:auto;
+    transform:none!important;
+    margin:0 auto;
+  }
+  .wordmark small{display:none!important}
+  .navlinks{
+    width:100%;
+    min-height:46px;
+    display:flex!important;
+    justify-content:flex-end;
+    align-items:center;
+    padding-inline:18px 28px;
+    gap:0;
+    position:relative;
+    overflow:hidden;
+  }
+  .navlinks a:not(.cta){display:none!important}
+  .navlinks::before{
+    content:"";
+    position:absolute;
+    left:18px;
+    top:50%;
+    width:42%;
+    height:2px;
+    transform:translateY(-50%);
+    border-radius:999px;
+    background:linear-gradient(90deg, rgba(17,17,20,0), rgba(17,17,20,.18), rgba(17,17,20,0));
+  }
+  .navlinks::after{
+    content:"";
+    position:absolute;
+    left:18%;
+    top:50%;
+    width:22%;
+    height:34px;
+    transform:translateY(-50%) skewX(-18deg);
+    border-radius:999px;
+    background:linear-gradient(90deg, rgba(193,18,31,0), rgba(193,18,31,.10), rgba(193,18,31,0));
+    filter:blur(2px);
+    pointer-events:none;
+  }
+  .navlinks .cta{
+    position:relative;
+    z-index:2;
+    display:inline-flex!important;
+    justify-content:center;
+    align-items:center;
+    min-width:170px;
+    max-width:58vw;
+    padding:10px 18px;
+    margin:0;
+    transform:translateX(0)!important;
+    white-space:nowrap;
+    box-shadow:0 12px 28px rgba(0,0,0,.18);
+  }
+  .hero{padding-top:34px!important}
+}
+@media(max-width:390px){
+  .navlinks{padding-inline:12px 18px}
+  .navlinks .cta{min-width:150px;font-size:14px}
+  .navlinks::before{width:36%}
+}
+
 </style>
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"LocalBusiness","name":"סרגיי תמיכה ושירות למחשבי אפל","description":"יעוץ, שירות ותמיכה למחשבי Apple. תחזוקה, התקנה, תיקון, הצלה ותמיכה מרחוק במרכז ישראל.","address":{"@type":"PostalAddress","addressLocality":"פתח תקווה","addressCountry":"IL"},"areaServed":["פתח תקווה","מרכז ישראל","Israel"],"telephone":"+972526357441","url":"https://strongtequila.github.io/sergey-apple-service/"}</script>
 </head>

@@ -1,0 +1,107 @@
+mac-technician-israel.html — טכנאי Mac בישראל
+  - טכנאי Mac
+  - טכנאי מק
+  - טכנאי אפל
+  - תיקון Mac
+  - תיקון מק
+  - תמיכה Mac
+  - תמיכה מק
+  - Mac technician Israel
+  - Mac repair Israel
+  - ремонт Mac Израиль
+  - техник Mac Израиль
+
+mac-repair.html — תיקון Mac
+  - תיקון Mac
+  - תיקון מק
+  - מק תיקון
+  - תיקון אפל
+  - אפל תיקון
+  - Mac repair
+  - Apple computer repair
+  - ремонт Mac
+  - ремонт Apple
+  - ремонт компьютеров Apple
+
+apple-support-israel.html — תמיכה למחשבי Apple
+  - תמיכה Apple
+  - תמיכה אפל
+  - תמיכה Mac
+  - תמיכה מק
+  - שירות Apple
+  - שירות אפל
+  - Apple support Israel
+  - Mac support Israel
+  - поддержка Apple Израиль
+  - поддержка Mac
+
+remote-support.html — תמיכה מרחוק למחשבי Mac
+  - תמיכה מרחוק Mac
+  - תמיכה מרחוק מק
+  - תמיכה מרחוק אפל
+  - remote Mac support
+  - Apple remote support
+  - удалённая поддержка Mac
+  - удалённая помощь Apple
+
+mac-software-repair.html — תיקון תקלות תוכנה ב-Mac
+  - תקלות Mac
+  - תקלות מק
+  - תיקון תוכנה Mac
+  - תיקון מערכת Mac
+  - Mac software repair
+  - macOS repair
+  - ремонт macOS
+  - проблемы Mac
+
+icloud-sync.html — הגדרת iCloud וסנכרון
+  - הגדרת iCloud
+  - סנכרון iCloud
+  - סנכרון Mac iPhone
+  - iCloud Mac
+  - iCloud sync
+  - настройка iCloud
+  - синхронизация iCloud
+
+mac-upgrade-optimization.html — שדרוג ואופטימיזציה למחשבי Mac
+  - שדרוג Mac
+  - שדרוג מק
+  - אופטימיזציה Mac
+  - Mac optimization
+  - Mac upgrade
+  - ускорение Mac
+  - апгрейд Mac
+
+old-mac-service.html — שירות למחשבי Apple ישנים
+  - Mac ישן
+  - מק ישן
+  - מחשבי Apple ישנים
+  - Power Mac G5
+  - PowerPC G4
+  - old Mac service
+  - старые Mac
+  - обслуживание старых Apple
+
+mac-workstations-networks.html — תחנות עבודה ורשתות Mac
+  - תחנת עבודה Mac
+  - רשת Mac
+  - Mac Windows network
+  - Mac workstation
+  - настройка сети Mac
+  - рабочая станция Mac
+
+mac-russian-support.html — טכנאי Mac דובר רוסית
+  - טכנאי Mac דובר רוסית
+  - תמיכה Mac ברוסית
+  - русский техник Mac
+  - ремонт Mac на русском
+  - поддержка Apple на русском в Израиле
+
+macbook-repair.html — תיקון MacBook
+  - תיקון MacBook
+  - תיקון מקבוק
+  - MacBook repair
+  - MacBook Air repair
+  - MacBook Pro repair
+  - ремонт MacBook
+  - ремонт Макбук

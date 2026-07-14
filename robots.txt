@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://strongtequila.github.io/sergey-apple-service/sitemap.xml
